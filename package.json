@@ -16,6 +16,8 @@
     "@babel/preset-env": "^7.12.1"
   },
   "scripts": {
+    "dev": "nodemon app.js",
+    "devbabel": "nodemon app.js --exec babel-node",
     "start": "babel-node app.js --exec"
   },
   "keywords": [],
