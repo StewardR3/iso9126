@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Rutas
 app.get('/', (req, res) => {
-  res.send('Hola Ecuado');
+  res.send('Evaluacion de la Calidad del Software');
 });
 
 // Middleware para Vue.js router modo history
